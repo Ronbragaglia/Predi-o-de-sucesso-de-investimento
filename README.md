@@ -1,41 +1,44 @@
-Observações Gerais:
+# Predição de Sucesso de Investimento
 
-Importações:
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white) ![Topic](https://img.shields.io/badge/Topic-machine-learning-green) ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-As bibliotecas importadas (numpy, pandas, matplotlib, seaborn, e sklearn) são apropriadas para tarefas de manipulação de dados, visualização e machine learning.
+## Descrição
 
-Geração de Dados:
+Modelo preditivo de sucesso de investimentos usando múltiplos algoritmos de ML com dataset simulado, otimização de hiperparâmetros e métricas detalhadas.
 
-O código gera um conjunto de dados sintético para simular a relação entre diferentes variáveis e a variável alvo (Sucesso).
+## Funcionalidades
 
-Criação do DataFrame:
+- Comparação entre múltiplos algoritmos (Random Forest, SVM, etc.)
+- Dataset simulado com variáveis financeiras realistas
+- Otimização de hiperparâmetros com GridSearchCV
+- Métricas: acurácia, precisão, recall, F1-Score, ROC-AUC
+- Visualizações de feature importance e matriz de confusão
 
-A estrutura do DataFrame é clara, e os nomes das colunas são descritivos. Isso facilita a compreensão dos dados.
+## Stack Tecnológico
 
-Visualização Inicial:
+| Tecnologia | Descrição |
+|---|---|
+| Python | Linguagem principal |
+| Scikit-learn | Algoritmos de ML |
+| Pandas | Manipulação de dados |
+| Matplotlib | Visualizações |
+| NumPy | Computação numérica |
 
-Antes de treinar os modelos, pode ser útil incluir gráficos para explorar os dados. Considere adicionar visualizações como gráficos de dispersão ou histogramas para visualizar a distribuição das variáveis e a relação com a variável alvo.
-Divisão dos Dados:
+## Como Usar
 
-A divisão entre conjuntos de treinamento e teste é feita de maneira correta, utilizando 80% dos dados para treinamento e 20% para teste, o que é uma prática comum.
-Normalização:
+1. Instale as dependências: `pip install scikit-learn pandas matplotlib`
+2. Execute: `python predicao_investimento.py`
+3. Os resultados e gráficos serão gerados automaticamente
 
-O uso de StandardScaler é apropriado, pois ajuda a normalizar as características, o que pode melhorar o desempenho de alguns algoritmos de machine learning.
+## Estrutura de Pastas
 
-![image](https://github.com/user-attachments/assets/078851f0-26da-42a4-a7be-3cffadfde6e0)
+```
+├── predicao_investimento.py
+├── data/
+├── outputs/
+└── requirements.txt
+```
 
-![image](https://github.com/user-attachments/assets/6f4e3433-6724-46c0-ac8a-01d4b652f4fb)
+---
 
-![image](https://github.com/user-attachments/assets/39e02fae-84ef-492c-963b-a2bae26cb68e)
-
-![image](https://github.com/user-attachments/assets/df682cb8-6a86-47ad-951e-75ff535e6d1f)
-
-![image](https://github.com/user-attachments/assets/7400b4bb-d528-4285-a328-7fb37e3af719)
-
-![image](https://github.com/user-attachments/assets/66b67376-d2df-40a5-9144-8fd40017daa3)
-
-![image](https://github.com/user-attachments/assets/ac2aef22-ba17-4597-a694-0eab0727e406)
-
-![image](https://github.com/user-attachments/assets/50a5d73d-0253-46a3-9abc-4f1f747f9163)
-
-![image](https://github.com/user-attachments/assets/64a4a7bc-4c02-41d5-82d8-597e53a33c32)
+> Feito com ❤️ por Rone Bragaglia · ML Engineer & Fundador CobrançaAuto
